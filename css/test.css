@@ -297,7 +297,7 @@
     text-decoration: none;
   }
 
-  .container__item-title:hover a {
+  .container__item-title:hover {
     color: #415af6;
   }
 
