@@ -267,28 +267,62 @@ nav {
     background-size: contain;
 }
 
-container-mobile {
-    visibility: hidden;
-}
-
 @media(max-width: 900px) {
+
+    .scroll {
+        visibility: hidden;
+    }
 
     nav {
         position: relative;
+        vertical-align: middle;
+        display: flexbox;
     }
+
+    .menu__logo {
+        height: 100px;
+        width: 15%;
+    }
+
+    .menu__items {
+        height: 100px;
+        width: 80%;
+    }
+
+    .contact {
+        visibility: hidden;
+        text-align: center;
+    }
+
+    .container-mobile {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    
     .container__item {
-        width: 300px;
+        width: 80%;
         height: 200px;
-        margin: 50px 100px 20px 80px;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 20%;
+    }
+
+    .container__item-header {
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
     .container__item-header h1 {
-        font-size: 36px !important;
-        left: -60%;
+        font-size: 20px !important;
+        width: 80%;
+        height: 100px;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
     .container__item h1 {
-        font-size: 40px;
+        font-size: 28px;
         bottom: -20px;
     }
 }
