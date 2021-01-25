@@ -138,7 +138,7 @@ body {
   top: 0;
 }
 
-.menu-mobile .menu_items {
+.menu_items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -150,40 +150,40 @@ body {
   padding-top: 2%;
 }
 
-.menu-mobile .menu_items a {
+.menu_items a {
   color: #fff;
   text-decoration: none;
   font-weight: 400;
   font-size: 1.4rem;
 }
 
-.menu-mobile .menu_items .menu_link {
+.menu_link {
   padding-left: 8%;
   padding-right: 4%;
 }
 
-.menu-mobile .menu_items .act {
+.act {
   text-decoration: underline;
 }
 
-.menu-mobile .menu_logo {
+.menu_logo {
   width: 20%;
   padding-top: 2%;
   padding-left: 5%;
 }
 
-.menu-mobile .menu_logo a {
+.menu_logo a {
   color: #fff;
   text-decoration: none;
   font-weight: 900;
   font-size: 1.4rem;
 }
 
-.menu-mobile .contact a {
+.contact a {
   font-weight: 900;
 }
 
-.menu-mobile .contact:hover a {
+.contact:hover {
   color: #415af6;
 }
 
