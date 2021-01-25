@@ -571,19 +571,23 @@
       height: 10px;
       padding-bottom: 300px;
     }
-    .cont_mb .cont_item .cont-title a {
+
+   .cont_item img {
+     width: 100%;
+   }
+  .cont-title a {
       text-decoration: none;
       color: #fff;
       text-transform: lowercase;
       position: relative;
-      bottom: -240px;
+      bottom: 30px;
       font-size: 1.6rem;
     }
     .cont_mb .item-1 {
-      background: url(../images/nomad.png) no-repeat 50% 50%;
-      background-size: contain;
+      /* background: url(../images/nomad.png) no-repeat 50% 50%;
+      background-size: contain; */
     }
-    .cont_mb .item-2 {
+    /* .cont_mb .item-2 {
       background: url(../images/justgo.png) no-repeat 50% 50%;
       background-size: contain;
     }
@@ -598,7 +602,7 @@
     .cont_mb .item-5 {
       background: url(../images/sketches.png) no-repeat 50% 50%;
       background-size: contain;
-    }
+    } */
   }
   
   /*Tablet*/
