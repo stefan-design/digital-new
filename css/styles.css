@@ -141,7 +141,7 @@ nav {
     text-decoration: underline;
 }
 
-.contact {
+.contacts {
     margin: 40px;
     border: solid #fff;
     padding: 8px 20px;
@@ -149,20 +149,20 @@ nav {
     border-width: 1px;
 }
 
-.contact a {
+.contacts a {
     color: #fff;
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
 }
 
-.contact:hover {
+.contacts:hover {
     background: #415af6;
 }
 
 @media(max-width: 900px) {
 
-    .contact {
+    .contacts {
         visibility: hidden;
     }
 
