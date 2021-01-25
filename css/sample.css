@@ -252,8 +252,9 @@ padding-left: 5%;
     justify-content: center;
     align-content: center;
     z-index: 100;
+}
 
-    a {
+.scroll  a {
         color: #fff;
         text-decoration: none;
         font-weight: 400;
@@ -264,7 +265,6 @@ padding-left: 5%;
         padding-left: 8%;
         padding-right: 4%;
     }
-}
 
 .container {
     margin-top: 200px;
@@ -543,52 +543,48 @@ p.about__container-link {
         position: absolute;
         justify-content: space-between;
         width: 100%;
-    
-        .menu_items {
-            display: flex;
-            width: 80%;
-            justify-content: flex-end;
-            padding-right: 5%;
-            padding-top: 5%;
-    
-            a {
-                color: #fff;
-                text-decoration: none;
-                font-weight: 400;
-                font-size: 20px;
-            }
-    
-            .menu_link {
-                padding-left: 8%;
-                padding-right: 4%;
-            }
-    
-            .act {
-                text-decoration: underline;
-            }
-        }
-    
-        .menu_logo {
-            width: 20%;
-            padding-top: 5%;
-            padding-left: 5%;
-    
-            a {
-                color: #fff;
-                text-decoration: none;
-                font-weight: 900;
-                font-size: 20px;
-            }
-        }
-    
-    
-    
     }
+
+    .menu_items {
+        display: flex;
+        width: 80%;
+        justify-content: flex-end;
+        padding-right: 5%;
+        padding-top: 5%;
+    }
+
+    .menu_items a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 20px;
+     }
+
+     .menu_link {
+            padding-left: 8%;
+            padding-right: 4%;
+        }
+
+     .act {
+            text-decoration: underline;
+        }
+
+    .menu_logo {
+        width: 20%;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+
+    .menu_logo   a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 900;
+            font-size: 20px;
+        }
     
     .contact {
         display: none;
     }
-    
     
     /* mobile html */
     
@@ -599,63 +595,59 @@ p.about__container-link {
         padding-left: 10%;
         text-align: center;
         font-family: mon;
-    
-        .cont_item1 {
-            width: 100%;
-            height: 100px;
-            padding-bottom: 45%;
         }
-    
-        .cont_item-h {
-            font-size: 0.9rem;
-            text-transform: lowercase;
-        }
-    
-        .cont_item {
-            width: 100%;
-            height: 10px;
-            padding-bottom: 300px;
-    
-            .cont-title {
-                
-                a {
-                    text-decoration: none;
-                    color: #fff;
-                    text-transform: lowercase;
-                    position: relative;
-                    bottom: -240px;
-                    font-size: 1.6rem;
-                        }
-                    }
-        }
-    
-             .item-1 {
-            background: url(../images/nomad.png) no-repeat 50% 50%;
-            background-size: contain;
+
+    .cont_item1 {
+        width: 100%;
+        height: 100px;
+        padding-bottom: 45%;
+    }
+
+    .cont_item-h {
+        font-size: 0.9rem;
+        text-transform: lowercase;
+    }
+
+    .cont_item {
+        width: 100%;
+        height: 10px;
+        padding-bottom: 300px;
+    }
+     .cont-title a {
+                text-decoration: none;
+                color: #fff;
+                text-transform: lowercase;
+                position: relative;
+                bottom: -240px;
+                font-size: 1.6rem;
                 }
-    
-             .item-2 {
-            background: url(../images/justgo.png) no-repeat 50% 50%;
-            background-size: contain;
-                        }  
-    
-             .item-3 {
-            background: url(../images/sexeducation.png) no-repeat 50% 50%;
-            background-size: contain;
-                                }
-    
-            .item-4 {
-            background: url(../images/fourth.png) no-repeat 50% 50%;
-            background-size: contain;
-                                    }
-    
-            .item-5 {
-            background: url(../images/sketches.png) no-repeat 50% 50%;
-            background-size: contain;
-                                    }
-    
-                                    
+
+    .item-1 {
+        background: url(../images/nomad.png) no-repeat 50% 50%;
+        background-size: contain;
             }
+
+     .item-2 {
+        background: url(../images/justgo.png) no-repeat 50% 50%;
+        background-size: contain;
+                    }  
+
+      .item-3 {
+        background: url(../images/sexeducation.png) no-repeat 50% 50%;
+        background-size: contain;
+                            }
+
+     .item-4 {
+        background: url(../images/fourth.png) no-repeat 50% 50%;
+        background-size: contain;
+                                }
+
+    .item-5 {
+        background: url(../images/sketches.png) no-repeat 50% 50%;
+        background-size: contain;
+                                }
+
+                                
         }
     
     /*Tablet*/
@@ -667,50 +659,47 @@ p.about__container-link {
             position: absolute;
             justify-content: space-between;
             width: 100%;
-        
-            .menu_items {
-                display: flex;
-                width: 80%;
-                justify-content: flex-end;
-                padding-right: 5%;
-                padding-top: 5%;
-        
-                a {
-                    color: #fff;
-                    text-decoration: none;
-                    font-weight: 400;
-                    font-size: 40px;
-                }
-        
-                .menu_link {
-                    padding-left: 8%;
-                    padding-right: 4%;
-                }
-        
-                .act {
-                    text-decoration: underline;
-                }
-            }
-        
-            .menu_logo {
-                width: 20%;
-                padding-top: 5%;
-                padding-left: 5%;
-        
-                a {
-                    color: #fff;
-                    text-decoration: none;
-                    font-weight: 900;
-                    font-size: 40px;
-                }
-            }
-    
-            .contact {
-                visibility: hidden;
-            }
-        
         }
         
+        .menu_items {
+            display: flex;
+            width: 80%;
+            justify-content: flex-end;
+            padding-right: 5%;
+            padding-top: 5%;
+        }
+
+         .menu_items  a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 40px;
+            }
+    
+            .menu_link {
+                padding-left: 8%;
+                padding-right: 4%;
+            }
+    
+            .act {
+                text-decoration: underline;
+            }
+    
+        .menu_logo {
+            width: 20%;
+            padding-top: 5%;
+            padding-left: 5%;
+        }
+         .menu_logo  a {
+                color: #fff;
+                text-decoration: none;
+                font-weight: 900;
+                font-size: 40px;
+            }
+
+        .contact {
+            visibility: hidden;
+        }
         
         /* tablet html */
         
@@ -721,7 +710,8 @@ p.about__container-link {
             padding-left: 10%;
             text-align: center;
             font-family: mon;
-        
+            }
+
             .cont_item1 {
                 width: 100%;
                 height: 100px;
@@ -737,20 +727,16 @@ p.about__container-link {
                 width: 100%;
                 height: 10px;
                 padding-bottom: 700px;
-        
-                .cont-title {
-                    
-                    a {
+            }
+             .cont-title a {
                         text-decoration: none;
                         color: #fff;
                         text-transform: lowercase;
                         position: relative;
                         bottom: -580px;
                         font-size: 3.6rem;
-                            }
                         }
-            }
-        
+
                  .item-1 {
                 background: url(../images/nomad.png) no-repeat 50% 50%;
                 background-size: contain;
@@ -775,7 +761,5 @@ p.about__container-link {
                 background: url(../images/sketches.png) no-repeat 50% 50%;
                 background-size: contain;
                                         }
-        
-                                        
+                             
                 }
-            }
