@@ -296,6 +296,11 @@
     color: #fff;
     text-decoration: none;
   }
+
+  .container__item-title:hover a {
+    color: #415af6;
+    text-decoration: none;
+  }
   
   .container__item-1 {
     background: url(../images/nomad.png) no-repeat 50% 50%;
