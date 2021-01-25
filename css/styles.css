@@ -291,7 +291,6 @@ nav {
 
     .contact {
         visibility: hidden;
-        text-align: center;
     }
 
     .container-mobile {
@@ -397,10 +396,6 @@ p.about__container-link {
         display: none;
     }
 
-    .contact {
-        visibility: hidden;
-        text-align: center;
-    }
 }
 
 /* project section */
