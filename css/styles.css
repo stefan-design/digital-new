@@ -160,6 +160,14 @@ nav {
     background: #415af6;
 }
 
+@media(max-width: 900px) {
+
+    .contact {
+        visibility: hidden;
+    }
+
+}
+
 .scroll {
     position: fixed !important;
     bottom: 0;
@@ -287,10 +295,6 @@ nav {
     .menu__items {
         height: 100px;
         width: 80%;
-    }
-
-    .contact {
-        visibility: hidden;
     }
 
     .container-mobile {
