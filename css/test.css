@@ -295,12 +295,9 @@
   .container__item-title a {
     color: #fff;
     text-decoration: none;
+    cursor: pointer;
   }
 
-a :hover {
-    color: #415af6;
-    text-decoration: none;
-  }
   
   .container__item-1 {
     background: url(../images/nomad.png) no-repeat 50% 50%;
