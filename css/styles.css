@@ -396,6 +396,11 @@ p.about__container-link {
     .cursor-follow {
         display: none;
     }
+
+    .contact {
+        visibility: hidden;
+        text-align: center;
+    }
 }
 
 /* project section */
