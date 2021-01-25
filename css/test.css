@@ -297,7 +297,7 @@
     text-decoration: none;
   }
 
-  .container__item-title a :hover {
+a :hover {
     color: #415af6;
     text-decoration: none;
   }
