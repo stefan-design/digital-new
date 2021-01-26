@@ -1,8 +1,8 @@
-<IfModule mod_rewrite.c>
-   RewriteEngine On
-   RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /html/(.*).html\ HTTP/
-   RewriteRule .* http://localhost/html/%1 [R=301,L]
-
-   RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /html/(.*)\ HTTP/
-   RewriteRule .* %1.html [L]
-</IfModule>
+    RewriteEngine on
+RewriteBase /
+RewriteCond %{http://www.proofers.co.uk/new} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ http://www.proofers.co.uk/new/$1 [R=301,L]
