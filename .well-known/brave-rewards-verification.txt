@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: stefansavanovic.com
+Token: e06a31a909c1ea5cb8b6306f1739f640a62bdcabb283f3c9761b656fb8909d42
